@@ -1,0 +1,57 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Main.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/Main.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to S:\coding\scala-playground\hello-world\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.3
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.3. Compiling...
+[debug] Creating plain compiler interface for 2.13.3.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_176aa06a
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jre1.8.0_301\lib\resources.jar;C:\Program Files\Java\jre1.8.0_301\lib\rt.jar;C:\Program Files\Java\jre1.8.0_301\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_301\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_301\lib\jce.jar;C:\Program Files\Java\jre1.8.0_301\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_301\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_301\classes;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[debug] 	-classpath
+[debug] 	C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.5.7\compiler-interface-1.5.7.jar;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.5.0\util-interface-1.5.0.jar;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.13\1.5.7\compiler-bridge_2.13-1.5.7-sources.jar;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\scala\ZincCompat.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\API.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\AbstractZincFile.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\Analyzer.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\CallbackGlobal.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\ClassName.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\Compat.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\CompilerBridge.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\ConsoleBridge.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\DelegatingReporter.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\Dependency.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\ExtractAPI.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\ExtractUsedNames.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\GlobalHelpers.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\InteractiveConsoleBridge.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\InteractiveConsoleFactoryBridge.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\InteractiveConsoleHelper.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\InteractiveConsoleResponse.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\JarUtils.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\JavaUtils.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\LocalToNonLocalClass.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\LocateClassFile.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\Log.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\Message.scala
+[debug] 	C:\Users\19175\AppData\Local\Temp\sbt_995d1f4e\xsbt\ScaladocBridge.scala
+[debug]       
+[info]   Compilation completed in 5.286s.
+[debug] [zinc] Running cached compiler 5f32ba4b for Scala compiler version 2.13.3
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jre1.8.0_301\lib\resources.jar;C:\Program Files\Java\jre1.8.0_301\lib\rt.jar;C:\Program Files\Java\jre1.8.0_301\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_301\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_301\lib\jce.jar;C:\Program Files\Java\jre1.8.0_301\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_301\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_301\classes;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[debug] 	-classpath
+[debug] 	S:\coding\scala-playground\hello-world\target\scala-2.13\classes;C:\Users\19175\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar
+[debug] Scala compilation took 5.8306225 s
+[info] done compiling
