@@ -13,7 +13,7 @@ for (z <- 1 until 6) {
   println(isEven(z))
 }
 
-//param default
+// Param default
 def greeting(name: String, greeting: String = "Hello") = s"${greeting} ${name}"
 println(greeting("Bob"))
 

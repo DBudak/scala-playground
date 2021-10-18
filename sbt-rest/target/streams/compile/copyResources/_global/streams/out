@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(S:\coding\scala-playground\sbt-rest\src\main\resources\logback.xml,S:\coding\scala-playground\sbt-rest\target\scala-2.13\classes\logback.xml)
+[debug] 	(S:\coding\scala-playground\sbt-rest\src\main\resources\META-INF\native-image\com\example\sbtrest\reflect-config.json,S:\coding\scala-playground\sbt-rest\target\scala-2.13\classes\META-INF\native-image\com\example\sbtrest\reflect-config.json)

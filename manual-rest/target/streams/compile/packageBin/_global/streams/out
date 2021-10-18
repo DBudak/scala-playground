@@ -1,0 +1,21 @@
+[debug] Packaging S:\coding\scala-playground\manual-rest\target\scala-3.0.0\hello-world-rest_3-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	org
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org
+[debug] 	org\example
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example
+[debug] 	org\example\ping
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping
+[debug] 	org\example\ping\PingApi$$anon$1.class
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping\PingApi$$anon$1.class
+[debug] 	org\example\ping\PingApi.class
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping\PingApi.class
+[debug] 	org\example\ping\PingApi.tasty
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping\PingApi.tasty
+[debug] 	org\example\ping\PingApp$.class
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping\PingApp$.class
+[debug] 	org\example\ping\PingApp.class
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping\PingApp.class
+[debug] 	org\example\ping\PingApp.tasty
+[debug] 	  S:\coding\scala-playground\manual-rest\target\scala-3.0.0\classes\org\example\ping\PingApp.tasty
+[debug] Done packaging.

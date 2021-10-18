@@ -18,12 +18,20 @@
 // Public accessible anywhere
 // Protected accessible withing class and subclass
 
+// Scala constructor is defined under () after class name
+// Constructor is called when keyword new is used
+
 abstract class Animal(name: String) {
   def makeSound(mood: String): String
 }
 
 class Cat(val name: String = "Unknown") extends Animal(name) {
-  def makeSound(mood: String = "Annoyed") = s"${mood} meow!"
+
+  private val secretThought = "Capture Earth!"
+
+  protected val notSoSecretThought = "Fetch food, human!"
+
+  def makeSound(mood: String = "Annoyed") = s"${mood} meow! ${secretThought} ${notSoSecretThought}"
 }
 
 val tom = new Cat(name="Tom")
@@ -35,7 +43,7 @@ println(unnamedCat.name)
 println(unnamedCat.makeSound("Gentle"))
 
 class HungryCat(name:String) extends Cat(name) {
-  override def makeSound(mood: String) = s"Feed me now, human!"
+  override def makeSound(mood: String) = s"Feed me now, human! ${notSoSecretThought}"
 }
 
 val pixel = new HungryCat("Pixel")

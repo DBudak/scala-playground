@@ -1,0 +1,36 @@
+[debug] Created transactional ClassFileManager with tempDir = S:\coding\scala-playground\sbt-rest\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	Jokes$$anon$3$$anonfun$get$1.class
+[debug] 	Jokes$JokeError.class
+[debug] 	Jokes$$anon$3$$anon$4.class
+[debug] 	SbtrestRoutes$$anonfun$jokeRoutes$1.class
+[debug] 	HelloWorld$Greeting.class
+[debug] 	Jokes$Joke$anon$lazy$macro$11$1.class
+[debug] 	SbtrestRoutes$$anon$1.class
+[debug] 	SbtrestRoutes.class
+[debug] 	HelloWorld$Name.class
+[debug] 	SbtrestServer$.class
+[debug] 	Jokes$.class
+[debug] 	SbtrestRoutes$$anonfun$helloWorldRoutes$1.class
+[debug] 	Jokes$JokeError$.class
+[debug] 	HelloWorld.class
+[debug] 	Main$.class
+[debug] 	SbtrestRoutes$.class
+[debug] 	Jokes$Joke$.class
+[debug] 	HelloWorld$Greeting$$anon$1.class
+[debug] 	Jokes.class
+[debug] 	Jokes$$anon$3.class
+[debug] 	Jokes$Joke.class
+[debug] 	Jokes$Joke$anon$lazy$macro$5$1.class
+[debug] 	HelloWorld$.class
+[debug] 	Main.class
+[debug] 	SbtrestServer.class
+[debug] 	HelloWorld$Greeting$.class
+[debug] 	SbtrestRoutes$$anon$2.class
+[debug] 	HelloWorld$$anon$2.class
+[debug] 	Jokes$Joke$anon$lazy$macro$5$1$$anon$1.class
+[debug] 	HelloWorld$Name$.class
+[debug] 	Jokes$Joke$anon$lazy$macro$11$1$$anon$2.class
+[debug] Removing the temporary directory used for backing up class files: S:\coding\scala-playground\sbt-rest\target\scala-2.13\classes.bak

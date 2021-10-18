@@ -49,3 +49,20 @@ while(i < 5) {
 for (i <- 1 to 5) { // inclusive Range. exclusive Range keyword is until
   println(i)
 }
+
+// -------------------------------------  EXCEPTIONS
+
+// Any class that extends java.lang.Exception is an exception
+
+try {
+  throw new Exception("BOMB")
+} catch {
+  case ex: Exception => println("Caught exception")
+}
+
+// -------------------------------------  EQUALITY
+
+// Scala 2 can copare different types with warning
+"true" == true //true
+
+// Scala 3 only strict equality, above no longer compiles
