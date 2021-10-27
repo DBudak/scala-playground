@@ -53,6 +53,8 @@ val prependContacts = 0 +: moreContacts
 // Merge
 val merged = contacts ++ prependContacts
 
+List(1.4, 2.5, 3.6).sum // 7.5
+
 println(moreContacts) // List(1, 2, 3)
 println(prependContacts) // List(0, 1, 2, 3)
 println(merged) // List(1, 2, 0, 1, 2, 3)
@@ -85,7 +87,6 @@ def selectByEmails(contacts: List[Contact],
   second one index 1, and so on. It is an impure function because it throws IndexOutOfBoundsException
   if no item is available for the given index.
  */
-
 // def apply(n: Int): A
 List(0,1,2).apply(2) // 2
 List(0,1,2).apply(3) // it throws an IndexOutOfBoundsException
@@ -94,7 +95,6 @@ List(0,1,2).apply(3) // it throws an IndexOutOfBoundsException
   headOption—The function head and its equivalent apply(0) are impure functions
   as they throw exceptions for empty sequences.
 */
-
 // def headOption: Option[A]
 List(0,1,2).headOption
 
@@ -114,5 +114,63 @@ List(0,1,2).find(_ <= 1)
   In Scala, many types have a predefined order: String, Int,
   BigDecimal, Char, Byte, and Boolean are some of them.
 */
-
 List(1, 2, 3).max
+List(1, 2, 3).min
+// There is also maxBy minBy with custom ordering rules.
+
+// ------------------------------------- FILTERING
+
+/*
+  drop — The function drop takes an integer n as its parameter, and it creates a new
+  list without its first n items. If the sequence has less than n elements, it returns the
+  empty list.
+*/
+List(1,2,3).drop(1)
+// Reverse of drop
+List(1,2,3).take(1)
+
+/*
+dropWhile—For an instance of List[A], the method dropWhile creates a new list by
+removing elements starting from its head until a given predicate A => Boolean is
+respected.
+ */
+List(1,2,3,-1,-2,-3).dropWhile(_ < 2)
+// reverse of dropWhile
+List(1,2,3,-1,-2,-3).takeWhile(_ < 2)
+
+/*
+  filter — For an instance of List[A], the method filter takes a function of type A
+  => Boolean as its parameter, and it returns a new list with all the elements that
+  respect the predicate.
+ */
+List(1,2,3).filter(_ > 0)
+// Boolean reverse of predicate
+List(1,2,3).filterNot(_ > 0)
+
+// ------------------------------------- REMOVE DUPLICATES
+
+List(1,2,3,3,3).distinct
+
+// ------------------------------------- SORTING
+
+/*
+  sorted — For an instance of List[A] where A is a type with a given order, the function returns a new sequence with its elements ordered accordingly. Let’s recall
+  that type A has a given order if it has an implementation for Ordering[A].
+ */
+List(0.4, -2, 3).sorted
+
+// You can combine multiple criteria by using a tuple. The first criteria in the tuple will have
+// priority over the second one, and so on.
+List(0.4, -2, 3).sortBy(i => -i)
+
+List(1, 3, 2).reverse
+
+// ------------------------------------- TO STRING
+
+List("Hello", "Scala").mkString // HelloScala
+List("Hello", "Scala").mkString("[", "-", "]") //  [Hello-Scala]
+
+// ------------------------------------- GROUP BY
+
+//def groupBy[K](f: A => K): Map[K, List[A]]
+List(0,1,2).groupBy(_ % 2) // Returns Map(0 -> List(0,2), 1 -> List(1))
