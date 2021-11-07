@@ -1,0 +1,7 @@
+[error] -- [E007] Type Mismatch Error: S:\coding\scala-playground\scripts\readinput\src\main\scala\main.scala:14:13 
+[error] 14 |  printInput(input)
+[error]    |             ^^^^^
+[error]    |             Found:    (input : List[String])
+[error]    |             Required: String
+[error] one error found
+[error] one error found

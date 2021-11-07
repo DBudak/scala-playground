@@ -1,5 +1,7 @@
 // ------------------------------------- FUNCTIONS
 
+// Scala compiler does not infer function parameter types
+// Return type HAS to be explicitly set for recursive functions
 // take zero or more parameters
 // may not return a value
 // implicit return of last expression
@@ -33,3 +35,6 @@ def func4(a: Int) = ???
 // if implementation is missinbg implicitly provide return type since compiler cant infer it
 def func5(a: Int): Int
 //def func6(a: Int) error
+
+// SYNTAX FOR LITERAL
+// (a: type) => a

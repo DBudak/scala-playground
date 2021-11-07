@@ -9,6 +9,7 @@ sbt clean # delete any files created during compile
 sbt reload # re-eval the config provided to project
 sbt new # create a project using Giter8 template
 sbt console # start REPL
+sbt ~compile # hot reload
 
 # Giter8 is a framework of templates for skeleton projects
 

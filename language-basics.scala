@@ -50,6 +50,8 @@ for (i <- 1 to 5) { // inclusive Range. exclusive Range keyword is until
   println(i)
 }
 
+List(1,2,3).foreach(i => println(i))
+
 // -------------------------------------  EXCEPTIONS
 
 // Any class that extends java.lang.Exception is an exception
