@@ -2,9 +2,11 @@
 
 // Scala compiler does not infer function parameter types
 // Return type HAS to be explicitly set for recursive functions
-// take zero or more parameters
-// may not return a value
-// implicit return of last expression
+// Take zero or more parameters
+// May not return a value
+// Implicit return of last expression
+// Method parameters are vals not vars
+// A method that is used only for side effect returns Unit and is called procedure
 
 // SYNTAX: def name (params): return = expression
 def isEven(n: Int): Boolean = {

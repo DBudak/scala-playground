@@ -68,3 +68,27 @@ try {
 "true" == true //true
 
 // Scala 3 only strict equality, above no longer compiles
+
+// -------------------------------------  SEMICOLON
+
+// Scala infers semicolons
+// A line ending is treated as a semicolon unless
+// a) Line ends with a word that would not be legal as end of statement
+// b) Next line begins with word that can't start statement
+// c) Line ends while inside () or []
+
+// -------------------------------------  OPERATORS
+
+// All operators are really methods
+// Operators can be
+// infix
+2 + 1
+// prefix
+-2
+// postfix
+s.toLowerCase
+
+// -------------------------------------  SHORT CIRCUIT
+
+// && and || short circuit
+// if you don't want to short circuit use & and |

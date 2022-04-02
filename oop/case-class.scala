@@ -1,20 +1,24 @@
-// a case class is a class with an arbitrary number of parameters for which the compiler automatically adds ad hoc code
-// can refer to it as product type
-// for each param case class adds a getter function
-// case class params are immutable
-// copy function equivalent to initializing a new class
-// copy function can receive only one param
-// every class has the functions toString, hashCode, equals
+// A case class is a class with an arbitrary number of parameters for which the compiler automatically adds ad hoc code
+// Can refer to it as product type
+// For each param case class adds a getter function
+// Case class params are immutable
+// Copy function equivalent to initializing a new class
+// Copy function can receive only one param
+// Every class has the functions toString, hashCode, equals
 
 // toString returns a string representation of class with has memory location
-// case class returns class + data it contains
+// Case class returns class + data it contains
 
 // equals: two classes are equal if they point to same memory location
 // case class equal:  same type and structure is considered equal
 
-// compiler auto generates companion object for case class with apply and unapply methods
+// Compiler auto generates accessor methods with same name as fields
+// Compiler auto generates toString
+// Compiler auto generates companion object for case class with apply and unapply methods
+// Compiler auto generates copy, apply, unapply methods
 // apply creates an instance of class without constructor
 // unapply is used to decompose a class
+// Compiler will NOT generate any method implemented by hand
 
 
 case class Person(name: String, age: Int)

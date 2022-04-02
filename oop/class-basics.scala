@@ -1,5 +1,6 @@
 // ------------------------------------- CLASSES
 
+// Class is a blueprint for object
 // Subclass - inheritance child
 // Superclass - inheritance parent
 // Abstract class - class where one or more methods do not have implementation
@@ -26,6 +27,8 @@ abstract class Animal(name: String) {
 }
 
 class Cat(val name: String = "Unknown") extends Animal(name) {
+
+  val purpose = "sleep" // instance variable
 
   private val secretThought = "Capture Earth!"
 
