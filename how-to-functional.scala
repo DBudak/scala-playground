@@ -20,3 +20,4 @@ val numbersMultipliedBy2 =
     n*2
 
 
+// Use Future For async actions
