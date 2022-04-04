@@ -14,6 +14,8 @@
 
 // if else - > pattern matching
 
+// Exception handling -> Try
+
 // Use Tuples (Lists of different types)
 
 // Use Sets (Lists of unique values without order)
