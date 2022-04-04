@@ -1,12 +1,26 @@
 // Write pure functions
 
-// Use Lists instead of Arrays
+// Do not use var and mutable types
+
+// Async -> Future
+
+// Arrays -> Lists
+
+// Data -> final case class
+
+// Polymorphism/Multi inheritance -> Traits
+
+// Return null -> Option
+
+// if else - > pattern matching
 
 // Use Tuples (Lists of different types)
 
 // Use Sets (Lists of unique values without order)
 
 // Use Maps (A collection of key -> value pairs)
+
+// use .map to process values in containers like Option, Future, etc
 
 // Use .map for iteration
 val numbers = List(1,2,3)
@@ -20,4 +34,3 @@ val numbersMultipliedBy2 =
     n*2
 
 
-// Use Future For async actions

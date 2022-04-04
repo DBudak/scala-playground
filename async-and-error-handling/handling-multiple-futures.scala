@@ -1,7 +1,7 @@
 // To handle multiple Futures use for-comprehension
 // Below code will concurently execute all Futures
 // If any fail, whole chain Fails and returns Failure
-// If need parallel execution read 417 of pink Scala book
+// If need parallel execution there are methods on Future instead (read 417 of pink Scala book)
 
 
 // Outputs: Merchant(1,Doe,28)
