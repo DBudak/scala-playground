@@ -1,3 +1,5 @@
+// ================= CHECKING WHATS INSIDE
+
 // isDefined returns true if an optional instance has a value, false otherwise
 // def isDefined: Boolean
 Some(1).isDefined // true
@@ -12,6 +14,14 @@ None.isEmpty // returns true
 Some(None).isEmpty // false
 Some(None).flatten.isEmpty // true
 
+// ================= GETTING WHATS INSIDE
+
+// match expression
+option match {
+    case Some(i) => i
+    case None => default
+}
+
 // getOrElse returns the optional value if present; otherwise, it will execute the provided default operation.
 // def getOrElse(default: A): A
 // safe way to get value out of Option
@@ -19,6 +29,17 @@ Some(1).getOrElse(-1) // returns 1
 None.getOrElse(-1) // returns -1
 Some(None).getOrElse(-1) // None
 Some(None).flatten.getOrElse(-1) // -1
+
+// applying a function to value
+val res = option.map(f).getOrElse(default)
+
+// apply a function or return value default if none
+val res = option.fold(default)(f)
+
+def f(i: Int) = i + 1
+
+val a = Some(1)
+val b = a.fold(0)(f)   // result: b = 2
 
 // find returns an optional value if its element satisfies a given predicate.
 // def find(predicate: A => Boolean): Option[A]
