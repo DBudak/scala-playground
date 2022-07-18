@@ -38,3 +38,10 @@ Qustions to ask:
     .foldLeft
     .groupBy
 */
+
+// ================ METHODS PARAMETERS
+
+/*
+    if method needs something that can be iterated over use Seq[T]
+    if methods needs something with index and iterable use IndexedSeq[T]
+*/
