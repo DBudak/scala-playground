@@ -1,3 +1,5 @@
 .metals
 .vscode
-project
+.bsp
+.idea
+project/
