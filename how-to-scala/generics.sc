@@ -5,11 +5,11 @@
 final case class BoxOfA[A](something: A)
 def generic[A](in: A): A = in
 
-// Generic ADT
+// Type specific ADT
 sealed trait Calculation
 final case class Success(result: Double) extends Calculation
 final case class Failure(reason: String) extends Calculation
-// to
+// To Generic ADT
 sealed trait Result[A]
 case class Success[A](result: A) extends Result[A]
 case class Failure[A](reason: String) extends Result[A]
